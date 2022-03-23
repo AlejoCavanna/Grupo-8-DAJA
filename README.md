@@ -40,7 +40,7 @@ La ajustaremos de acuerdo a demanda.
 
 ### Links de ejemplo  
 
--https://www.beercoffee.com.ar/
--https://www.craftibeer.com/
--https://gamadistribuidora.com.ar/
--https://brewtapp.com/
+- https://www.beercoffee.com.ar/
+- https://www.craftibeer.com/
+- https://gamadistribuidora.com.ar/
+- https://brewtapp.com/
