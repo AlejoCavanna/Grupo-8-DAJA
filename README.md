@@ -38,7 +38,7 @@ La ajustaremos de acuerdo a demanda.
 | Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
-### Links de ejemplo  
+### Sitios de referencia
 
 - https://www.beercoffee.com.ar/
 - https://www.craftibeer.com/
