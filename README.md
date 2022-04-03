@@ -45,3 +45,8 @@ La ajustaremos de acuerdo a demanda.
 - https://gamadistribuidora.com.ar/
 - https://brewtapp.com/
 - https://www.mashandgrape.com/
+
+
+#### Link al documento o plataforma que utilicen para organizar el trabajo:
+
+## https://trello.com/b/yPGdTTbe/cerveza
