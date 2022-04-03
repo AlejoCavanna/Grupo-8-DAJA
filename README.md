@@ -49,4 +49,4 @@ La ajustaremos de acuerdo a demanda.
 
 #### Link al documento o plataforma que utilicen para organizar el trabajo:
 
-## https://trello.com/b/yPGdTTbe/cerveza
+- https://trello.com/b/yPGdTTbe/cerveza
