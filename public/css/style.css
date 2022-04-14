@@ -1,0 +1,148 @@
+.burger-over {
+    /* text-align: end; */
+    /* float: right; */
+}
+
+.burger-menu {
+    background-color: #000000;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 20px;
+    margin: 10px 0px 20px 0px;
+    padding-right: -10px !important;
+    padding: 5px;
+    width: 25px;
+    padding-right: .10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.burger-menu i {
+    margin-left: 10px !important;
+}
+
+header section ul {
+    display: none;
+}
+
+.burger-over {
+    display: block;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    background-color: #00b48a;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-left: 8px;
+
+}
+
+li a {
+    display: block;
+    /* padding: 8px; */
+    margin-top: 18px;
+    /* color:#ffffff !important;
+        text-decoration: none; */
+}
+
+li a:hover {
+    background-color: rgb(255, 217, 4);
+    text-decoration: underline;
+    color: #ffffff;
+    /* display: none; */
+}
+
+li a:active {
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+/* -------------------------------footer--------------------------- */
+.part1-footer{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 120%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.footer1,.footer2 {
+    position: relative;
+    top:-45px;
+} 
+.footer2{
+    position: relative;
+    top:-105px;
+}
+
+
+
+
+/* 361px */
+/* Tablets */ 
+@media (min-width: 644px) { 
+    header section ul {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navigator {
+        display: flex;
+        flex-direction: row;
+        background-color: #00b48a;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    /* .burger-over{
+        display: none;
+    } */
+
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    header section ul {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .burger-over {
+        display: none;
+    }
+
+    .navigator {
+        display: flex;
+        flex-direction: row;
+        background-color: #00b48a;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+}
