@@ -22,7 +22,7 @@ app.get("/carrito",(req,res)=>{
     let htmlPath = path.resolve(__dirname,"./views/productCart.html");
     res.sendFile(htmlPath);
 });
-app.get("/registro",(req,res)=>{
+app.get("/register",(req,res)=>{
     let htmlPath = path.resolve(__dirname,"./views/register.html");
     res.sendFile(htmlPath);
 });
