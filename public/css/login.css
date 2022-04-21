@@ -1,0 +1,44 @@
+body
+{
+	background: #f24333;
+}
+
+h5
+{
+	font-weight: 400;
+}
+
+.container
+{
+	margin-top: 80px;
+	width: 400px;
+	height: 700px;
+}
+
+.tabs .indicator
+{
+	background-color: #f24333;
+	height: 60px;
+	opacity: 0.3;
+}
+
+.form-container
+{
+	padding: 40px;
+	padding-top: 10px;
+
+}
+
+/* .form-container:active{
+
+} */
+
+.confirmation-tabs-btn
+{
+	position: absolute;
+}
+
+.white-text:active .form-container{
+    display: none;
+
+}

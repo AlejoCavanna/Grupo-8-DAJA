@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>trabajo integrador</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/login.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -28,27 +29,99 @@
                     </ul>
                 </div>
 
-
-
                 <div class="burger-over">
                     <i class="fas fa-bars burger-menu"></i>
                 </div>
             </div>
-
-
-
         </section>
     </header>
     <main>
-
-
-
         <section>
-           
+            <div class="container white z-depth-2">
+                <ul class="tabs teal">
+                    <li class="tab col s3">
+                        <a class="white-text active" href="#">login</a>
+                    </li>
+                    <li class="tab col s3">
+                        <a class="white-text" href="#">register</a>
+                    </li>
+                </ul>
+                <div id="login" class="col s12">
+                    <form class="col s12">
+                        <div class="form-container">
+                            <h3 class="teal-text">Hola!</h3>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate" />
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password" type="password" class="validate" />
+                                    <label for="password">Contraseña</label>
+                                </div>
+                            </div>
+                            <br />
+                            <center>
+                                <button class="btn waves-effect waves-light teal" type="submit" name="action">
+                                    Conectar
+                                </button>
+                                <br />
+                                <br />
+                                <a href="">Olvidaste tu contraseña?</a>
+                            </center>
+                        </div>
+                    </form>
+                </div>
+                <div id="register" class="col s12">
+                    <form class="col s12">
+                        <div class="form-container">
+                            <h3 class="teal-text">Bienvendio</h3>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate" />
+                                    <label for="last_name">Nombre</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate" />
+                                    <label for="last_name">Apellido</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate" />
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email-confirm" type="email" class="validate" />
+                                    <label for="email-confirm">Confirmar Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password" type="password" class="validate" />
+                                    <label for="password">Contraseña</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password-confirm" type="password" class="validate" />
+                                    <label for="password-confirm">Confirmar Contraseña</label>
+                                </div>
+                            </div>
+                            <center>
+                                <button class="btn waves-effect waves-light teal" type="submit" name="action">
+                                    Entregar
+                                </button>
+                            </center>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
-
-
-
     </main>
     <footer>
         <div class="all-footer">
@@ -81,7 +154,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
