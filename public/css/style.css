@@ -7,9 +7,11 @@
   margin: 0;
   padding: 0;
 }
-h1{
+
+h1 {
   color: #000000;
 }
+
 body {
   background: #bdc3c7;
   line-height: 1.5;
@@ -18,77 +20,96 @@ body {
   font-size: 16px;
   color: #fff;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 #header {
   background: #f24333;
   width: 100%;
   position: relative;
 }
-.menu-major{
-    display:flex;
-    flex-direction:row;
-    align-items: center;
+
+.menu-major {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.input-menu{
-    width: 30%;
-    height: 10px;
+
+.input-menu {
+  width: 30%;
+  height: 10px;
 }
+
 #header:after {
   content: "";
   clear: both;
   display: block;
 }
+
 .search {
   float: right;
   padding: 30px;
 }
+
 input {
   border: none;
   padding: 10px;
   border-radius: 20px;
 }
+
 .logo {
   float: left;
   padding: 26px 0 26px;
 }
+
 .logo a {
   font-size: 28px;
   display: block;
   padding: 0 0 0 20px;
 }
+
 nav {
   float: right;
 }
-nav > ul {
+
+nav>ul {
   float: left;
   position: relative;
 }
+
 nav li {
   list-style: none;
   float: left;
 }
+
 nav .dropdown {
   position: relative;
 }
+
 nav li a {
   float: left;
   padding: 35px;
 }
+
 nav li a:hover {
   background: #f24333;
 }
+
 nav li ul {
   display: none;
 }
+
 nav li:hover ul {
   display: inline;
 }
+
 nav li li {
   float: none;
 }
+
 nav .dropdown ul {
   position: absolute;
   left: 0;
@@ -97,14 +118,17 @@ nav .dropdown ul {
   padding: 20px 0;
   border-bottom: 3px solid #f24333;
 }
+
 nav .dropdown li {
   white-space: nowrap;
 }
+
 nav .dropdown li a {
   padding: 10px 35px;
   font-size: 13px;
   min-width: 200px;
 }
+
 nav .mega-dropdown {
   width: 100%;
   position: absolute;
@@ -115,6 +139,7 @@ nav .mega-dropdown {
   padding: 20px 35px;
   border-bottom: 3px solid #f24333;
 }
+
 nav li li a {
   float: none;
   color: #f24333;
@@ -123,14 +148,17 @@ nav li li a {
   border-radius: 3px;
   font-size: 13px;
 }
+
 nav li li a:hover {
   background: #bdc3c7;
   background: #fafbfb;
 }
+
 .mega-col {
   width: 25%;
   float: left;
 }
+
 #menu-icon {
   position: absolute;
   right: 0;
@@ -139,6 +167,7 @@ nav li li a:hover {
   margin-right: 30px;
   display: none;
 }
+
 #menu-icon span {
   border: 2px solid #fff;
   width: 30px;
@@ -147,16 +176,19 @@ nav li li a:hover {
   -webkit-transition: all 0.2s;
   transition: all 0.1s;
 }
+
 @media only screen and (max-width: 1170px) {
-  nav > ul > li > a {
+  nav>ul>li>a {
     padding: 35px 15px;
   }
 }
+
 @media only screen and (min-width: 960px) {
   nav {
     display: block !important;
   }
 }
+
 @media only screen and (max-width: 959px) {
   nav {
     display: none;
@@ -166,45 +198,56 @@ nav li li a:hover {
     max-height: 400px;
     overflow-y: scroll;
   }
+
   #menu-icon {
     display: inline;
     top: 45px;
     cursor: pointer;
   }
+
   #menu-icon.active .first {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin-top: 10px;
   }
+
   #menu-icon.active .second {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     position: relative;
     top: -9px;
   }
+
   #menu-icon.active .third {
     display: none;
   }
+
   .search {
     float: none;
   }
+
   .search input {
     width: 100%;
   }
+
   nav {
     padding: 10px;
   }
+
   nav ul {
     float: none;
   }
+
   nav li {
     float: none;
   }
+
   nav ul li a {
     float: none;
     padding: 8px;
     display: block;
   }
+
   #header nav ul ul {
     display: block;
     position: static;
@@ -212,18 +255,22 @@ nav li li a:hover {
     border: none;
     padding: 0;
   }
+
   #header nav a {
     color: #fff;
     padding: 8px;
   }
+
   #header nav a:hover {
     background: #fff;
     color: #333;
     border-radius: 3px;
   }
+
   #header nav ul li li a:before {
     content: "- ";
   }
+
   .mega-col {
     width: 100%;
   }
@@ -258,10 +305,12 @@ header section ul {
   color: #ffffff;
   display: none;
 }
+
 .menu ul {
   list-style-type: none;
   color: #ffffff;
 }
+
 .burger-over {
   display: block;
 }
@@ -424,7 +473,6 @@ footer {
   display: none;
 }
 
-
 body {
   font-family: Arial, Helvetica, sans-serif !important;
   background-color: #f3f7f6;
@@ -452,6 +500,7 @@ body {
     width: 100vw;
     justify-content: space-between;
   }
+
   .article {
     width: 43%;
   }

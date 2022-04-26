@@ -15,127 +15,69 @@
     <header>
         <section>
             <div id="header">
-              <div class="logo">
-                <a href="#">DAJA</a>
-              </div>
-              <nav>
-                <div class="menu-major">
-                  <div class="input-menu">
-                    <input name="q" placeholder="Buscar..." type="Buscar...">
-                  </div>
-      
-                  <li>
-                    <a href="/">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="">Quienes somos</a>
-                  </li>
-                  </li>
-                  <li>
-                    <a href="/login">Iniciar Sesion</a>              
-                  </li>
-                  <li>
-                    <a href="/register">Registrarse</a>
-                  </li>
-                  <li>
-                    <a href="/carrito">Carrito</a>
-                  </li>
-                  </ul>
+                <div class="logo">
+                    <a href="#">DAJA</a>
                 </div>
-              </nav>
-              <div class="burger-over">
-                <i class="fas fa-bars burger-menu"></i>
-              </div>
+                <nav>
+                    <div class="menu-major">
+                        <div class="input-menu">
+                            <input name="q" placeholder="Buscar..." type="Buscar...">
+                        </div>
+
+                        <li>
+                            <a href="/">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="">Quienes somos</a>
+                        </li>
+                        </li>
+                        <li>
+                            <a href="/login">Iniciar Sesion</a>
+                        </li>
+                        <li>
+                            <a href="/register">Registrarse</a>
+                        </li>
+                        <li>
+                            <a href="/carrito">Carrito</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="burger-over">
+                    <i class="fas fa-bars burger-menu"></i>
+                </div>
             </div>
-      
+
             </div>
-          </section>
+        </section>
     </header>
     <main>
         <section>
-            <div class="container white z-depth-2">
-                <ul class="tabs teal">
-                    <li class="tab col s3">
-                        <a class="white-text active" href="#">login</a>
-                    </li>
-                    <li class="tab col s3">
-                        <a class="white-text" href="#">register</a>
-                    </li>
-                </ul>
-                <div id="login" class="col s12">
-                    <form class="col s12">
-                        <div class="form-container">
-                            <h3 class="teal-text">Hola!</h3>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate" />
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="password" type="password" class="validate" />
-                                    <label for="password">Contraseña</label>
-                                </div>
-                            </div>
-                            <br />
-                            <center>
-                                <button class="btn waves-effect waves-light teal" type="submit" name="action">
-                                    Conectar
-                                </button>
-                                <br />
-                                <br />
-                                <a href="">Olvidaste tu contraseña?</a>
-                            </center>
-                        </div>
+            <div class="wrapper fadeInDown">
+                <div id="formContent">
+                    <!-- Tabs Titles -->
+                    <h2 class="active"> Iniciar Sesion </h2>
+
+                    <!-- Icon -->
+                    <!-- <div class="fadeIn first">
+                    <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                  </div> -->
+
+                    <!-- Login Form -->
+                    <form>
+                        <input type="text" id="Nombre" class="fadeIn second" name="Nombre" placeholder="Nombre">
+                        <input type="text" id="Contraseña" class="fadeIn third" name="Contraseña"
+                            placeholder="Contraseña">
+                        <input type="submit" class="fadeIn fourth" value="Iniciar Sesion">
                     </form>
+
+                    <!-- Remind Passowrd -->
+                    <div id="formFooter">
+                        <p class="underlineHover" href="#">¿Olvidaste tu contraseña?</p>
+                    </div>
+
                 </div>
-                <div id="register" class="col s12">
-                    <form class="col s12">
-                        <div class="form-container">
-                            <h3 class="teal-text">Bienvendio</h3>
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input id="last_name" type="text" class="validate" />
-                                    <label for="last_name">Nombre</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input id="last_name" type="text" class="validate" />
-                                    <label for="last_name">Apellido</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate" />
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email-confirm" type="email" class="validate" />
-                                    <label for="email-confirm">Confirmar Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="password" type="password" class="validate" />
-                                    <label for="password">Contraseña</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="password-confirm" type="password" class="validate" />
-                                    <label for="password-confirm">Confirmar Contraseña</label>
-                                </div>
-                            </div>
-                            <center>
-                                <button class="btn waves-effect waves-light teal" type="submit" name="action">
-                                    Entregar
-                                </button>
-                            </center>
-                        </div>
-                    </form>
-                </div>
+            </div>
             </div>
         </section>
     </main>

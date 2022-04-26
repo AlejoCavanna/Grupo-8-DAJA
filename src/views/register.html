@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>trabajo integrador</title>
-    <link rel="stylesheet" href="/css/style.css"/>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>trabajo integrador</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/login.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
     <section>
       <div id="header">
         <div class="logo">
@@ -32,7 +32,7 @@
             </li>
             </li>
             <li>
-              <a href="/login">Iniciar Sesion</a>              
+              <a href="/login">Iniciar Sesion</a>
             </li>
             <li>
               <a href="/register">Registrarse</a>
@@ -50,159 +50,67 @@
 
       </div>
     </section>
-    <main>
-      <div class="all-form-register">
-        <div class="form-register">
-          <div class="div-first-register-form div-first-register-form-name">
-            <input
-              type="text"
-              placeholder=" Nombre y apellido:"
-              class="first-register-form"
-            />
-          </div>
-          <div class="div-first-register-form">
-            <input
-              type="text"
-              placeholder=" Nombre de usuari@:"
-              class="first-register-form"
-            />
-          </div>
-          <div class="change-label">
-            <label>Fecha de nacimiento (Mayor de 18 años)</label>
-          </div>
-          <div class="div-first-register-form">
-            <input type="date" class="first-register-form" />
-          </div>
-          <div class="div-first-register-form">
-            <input
-              type="text"
-              placeholder=" Domicilio:"
-              class="first-register-form"
-            />
-          </div>
-          <br />
-          <div>
-            <div class="change-label">
-              <label>Perfil del usuario: </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="radio" value="Comprar" />
-              <label>Comprar </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="radio" value="Vender" />
-              <label>Vender </label>
-            </div>
-          </div>
+  </header>
+  <main>
+    <section>
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Registrarse </h2>
 
-          <div>
-            <div class="change-label">
-              <label>Intereses: </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Electro" />
-              <label>Pale Ale </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Moda" />
-              <label>Cervezas negras </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Hogar" />
-              <label>Ales belgas </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Juguetería" />
-              <label>Ale Alemanas </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Vida sana" />
-              <label>Abadia </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Vida sana" />
-              <label>Lager extra </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Vida sana" />
-              <label>Lager Especial </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Vida sana" />
-              <label>Cervezas Lager </label>
-            </div>
-            <div class="div-first-register-form">
-              <input type="checkbox" value="Vida sana" />
-              <label>Cervezas Pilsen </label>
-            </div>
-          </div>
-          <br />
-          <div class="div-change-photo">
-            <label class="change-photo">Foto del usuario: </label>
-            <input type="file" class="to-attach-register" />
-          </div>
-          <div class="div-first-register-form">
-            <input
-              type="password"
-              placeholder=" Contraseña:"
-              class="first-register-form"
-              required
-            />
-          </div>
-          <div class="div-first-register-form">
-            <input
-              type="password"
-              placeholder=" Confirmar contraseña:"
-              class="first-register-form"
-              required
-            />
-          </div>
-          <div class="buttons-register">
-            <div>
-              <button type="submit" class="buttons-register-modification">
-                Enviar
-              </button>
-            </div>
-            <br />
-            <div class="div-button-delete">
-              <button type="reset" class="buttons-register-modification">
-                Borrar
-              </button>
-            </div>
-          </div>
+          <!-- Icon -->
+          <!-- <div class="fadeIn first">
+                    <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                  </div> -->
+
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="Nombre" class="fadeIn second" name="Nombre" placeholder="Nombre">
+            <input type="text" id="Apellido" class="fadeIn third" name="Apellido" placeholder="Apellido">
+            <input type="date" id="Fecha de nacimiento" class="fadIn fourth" name="Fecha de nacimiento"
+              placeholder="Fecha de nacimiento">
+            <input type="text" id="Domicilio" class="fadeIn fifth" name="Domicilio" placeholder="Domicilio">
+            <input type="text" id="Contraseña" class="fadeIn sixth" name="Contraseña" placeholder="Contraseña">
+            <input type="text" id="Repetir Contraseña" class="fadeIn seventh" name="Repetir Contraseña"
+              placeholder="Repetir Contraseña">
+            <input type="submit" class="fadeIn eighth" value="Registrarse">
+          </form>
         </div>
       </div>
-    </main>
-    <footer>
-      <div class="all-footer">
-        <div class="part-footer-change">
-          <h4>CONTACTANOS</h4>
-          <div class="bold-font">
-            <p>Telefono:</p>
-          </div>
-          <p>0291 441-3704</p>
-          <div class="bold-font">
-            <p>Email:</p>
-          </div>
-          <p>daja@gmail.com</p>
-          <div class="bold-font">
-            <p>Horarios de Atención:</p>
-          </div>
-          <p>Lunes a Viernes de 9 a 19 hs. y Sabados de 9 a 13 hs.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="all-footer">
+      <div class="part-footer-change">
+        <h4>CONTACTANOS</h4>
+        <div class="bold-font">
+          <p>Telefono:</p>
         </div>
+        <p>0291 441-3704</p>
+        <div class="bold-font">
+          <p>Email:</p>
+        </div>
+        <p>daja@gmail.com</p>
+        <div class="bold-font">
+          <p>Horarios de Atención:</p>
+        </div>
+        <p>Lunes a Viernes de 9 a 19 hs. y Sabados de 9 a 13 hs.</p>
+      </div>
 
-        <div class="part-footer-change">
-          <div class="bold-font">
-            <p>ACERCA DE DAJA</p>
-          </div>
-          <div class="bold-font">
-            <p>Mision</p>
-          </div>
-          <div class="bold-font">
-            <p>Vision</p>
-          </div>
+      <div class="part-footer-change">
+        <div class="bold-font">
+          <p>ACERCA DE DAJA</p>
+        </div>
+        <div class="bold-font">
+          <p>Mision</p>
+        </div>
+        <div class="bold-font">
+          <p>Vision</p>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
