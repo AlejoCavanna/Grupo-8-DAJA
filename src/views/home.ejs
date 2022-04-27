@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>trabajo integrador</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-</head>
+<%- include('./partials/head.ejs')%>
 
 <body>
   <header>
@@ -31,7 +24,7 @@
             </li>
             </li>
             <li>
-              <a href="/login">Iniciar Sesion</a>              
+              <a href="/login">Iniciar Sesion</a>
             </li>
             <li>
               <a href="/register">Registrarse</a>
@@ -50,6 +43,7 @@
       </div>
     </section>
   </header>
+
   <main>
     <section>
       <h1>Basado en tu última visita</h1>
@@ -180,49 +174,7 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div class="all-footer">
-      <div class="part-footer-change">
-        <h4>CONTACTANOS</h4>
-        <div>
-          <div class="bold-font">
-            <i class="fas fa-phone"></i>
-            <p>Telefono:</p>
-            <p>0291 441-3704</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-envelope"></i>
-          <div class="bold-font">
-            <p>Email:</p>
-            <p>daja@gmail.com</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-clock"></i>
-          <div class="bold-font">
-            <p>Horarios de Atención:</p>
-            <p>Lunes a Viernes de 9 a 19 hs. y Sabados de 9 a 13 hs.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="part-footer-change">
-        <div>
-          <i class="fas fa-info-circle"></i>
-          <div class="bold-font">
-            <p>ACERCA DE DAJA</p>
-          </div>
-          <div class="bold-font">
-            <p>Mision</p>
-          </div>
-          <div class="bold-font">
-            <p>Vision</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <%- include('./partials/footer.ejs')%>
 </body>
 
 </html>

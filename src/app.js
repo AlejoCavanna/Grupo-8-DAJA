@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { use } = require("express/lib/application");
+const path = require("path");
 
 
 const mainRouter = require("./routes/mainRouter.js");
@@ -9,6 +9,8 @@ const productosRouter = require("./routes/productosRouter.js")
 const carritoRouter = require("./routes/carritoRouter.js")
 
 app.use(express.static("public"));
+app.set('views',path.resolve(__dirname,"views"));
+app.set('view engine','ejs');
 
 app.get("/", mainRouter);
 app.get("/register", userRouter);

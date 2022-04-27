@@ -3,19 +3,19 @@ const path = require("path");
 
 const mainController = {
     index: (req, res) => {
-        res.sendFile(path.resolve(__dirname, "../views/home.html"))
+        res.render("home");
     },
     tienda: (req, res) => {
-        res.sendFile(path.resolve(__dirname, "../views/producCart.html"))
+        res.render("productCart");
     },
     login: (req, res) => {
-        res.sendFile(path.resolve(__dirname, "../views/login.html"))
+        res.render("login");
     },
     register: (req, res) => {
-        res.sendFile(path.resolve(__dirname, "../views/register.html"))
+        res.render("register");
     },
     carrito: (req, res) => {
-        res.sendFile(path.resolve(__dirname, "../views/productCart.html"))
+        res.render("productCart");
     }
 }
 module.exports = mainController;
