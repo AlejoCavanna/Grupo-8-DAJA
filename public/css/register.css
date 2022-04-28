@@ -84,8 +84,7 @@ h2.active {
 
 input[type=button],
 input[type=submit],
-input[type=reset],
-input[type=date] {
+input[type=reset] {
   background-color: #f24333;
   border: none;
   color: white;
@@ -109,15 +108,13 @@ input[type=date] {
 
 input[type=button]:hover,
 input[type=submit]:hover,
-input[type=reset]:hover,
-input[type=date] {
+input[type=reset]:hover {
   background-color: #f24333;
 }
 
 input[type=button]:active,
 input[type=submit]:active,
-input[type=reset]:active,
-input[type=date] {
+input[type=reset]:active {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -o-transform: scale(0.95);
@@ -126,7 +123,8 @@ input[type=date] {
 }
 
 input[type=text],
-input[type=date] {
+input[type=date],
+input[type=password] {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -148,13 +146,15 @@ input[type=date] {
 }
 
 input[type=text]:focus,
-input[type=date] {
+input[type=date]:focus,
+input[type=password]:focus {
   background-color: #fff;
   border-bottom: 2px solid #f24333;
 }
 
 input[type=text]:placeholder,
-input[type=date] {
+input[type=date]:placeholder,
+input[type=password]:placeholder {
   color: #cccccc;
 }
 
@@ -266,6 +266,30 @@ input[type=date] {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+.fadeIn.fifth {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.fadeIn.sixth {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.fadeIn.seventh {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.fadeIn.eighth {
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
 
 /* Simple CSS3 Fade-in Animation */
