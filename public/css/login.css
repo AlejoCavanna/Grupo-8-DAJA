@@ -74,7 +74,7 @@ footer {
 	flex-direction: row;
 	/* background-color: #f8f8f8; */
 	color: #f8f8f8;
-	margin-top: 20px;
+	margin-bottom: auto;
 }
 
 .part-footer-change {

@@ -9,8 +9,8 @@ const productosRouter = require("./routes/productosRouter.js")
 const carritoRouter = require("./routes/carritoRouter.js")
 
 app.use(express.static("public"));
-app.set('views',path.resolve(__dirname,"views"));
-app.set('view engine','ejs');
+app.set('views', path.resolve(__dirname, "views"));
+app.set('view engine', 'ejs');
 
 app.get("/", mainRouter);
 app.get("/register", userRouter);
@@ -19,5 +19,5 @@ app.get("/tienda", productosRouter);
 app.get("/carrito", carritoRouter);
 
 
-app.listen(3005,()=>console.log("Servidor corriendo en http://localhost:3005"));
+app.listen(3005, () => console.log("Servidor corriendo en http://localhost:3005"));
 
