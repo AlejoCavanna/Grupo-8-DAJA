@@ -9,6 +9,8 @@ const productosRouter = require("./routes/productosRouter.js")
 const carritoRouter = require("./routes/carritoRouter.js")
 const allProducts = require("./routes/allProductsRouter.js")
 
+const detailsProducts = require("./routes/detailsProducts.js");
+
 app.use(express.static("public"));
 app.set('views', path.resolve(__dirname, "views"));
 app.set('view engine', 'ejs');
