@@ -13,24 +13,16 @@ app.use(methodOverride('_method')); // Para poder usar los métodos PUT y DELETE
 app.set('view engine', 'ejs'); // Define que el motor que utilizamos es EJS
 app.set('views', path.join(__dirname, '/views')); // Define la ubicación de la carpeta de las Vistas
 
-const mainRouter = require("./routes/mainRouter.js");
+
+// ************ Routes ************
 const userRouter = require("./routes/usersRouter.js");
-const products = require("./routes/productsRouter.js");
-
-
 app.use("/user", userRouter);
-/* "/products/allProducts" */
-app.use("/products",products);
+
+const productsRouter = require("./routes/productsRouter.js");
+app.use("/products", productsRouter);
+
+const mainRouter = require("./routes/mainRouter.js");
 app.use("/", mainRouter);
-
-
-// app.get("/allProducts", products);
-// app.get("/detail", products);
-// app.get("/register", userRouter);
-// app.get("/login", userRouter);
-// app.get("/tienda", products);
-// app.get("/carrito", products);
-
 
 app.listen(3005, () => console.log("Servidor corriendo en http://localhost:3005"));
 
