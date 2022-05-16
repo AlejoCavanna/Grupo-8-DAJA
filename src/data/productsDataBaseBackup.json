@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "price": 6.770,
+        "discount": 40,
+        "description": "Cerveza 3 Horses",
+        "image": "/images/cerveza-3-horses-lager.jpg"
+    },
+    {
+        "id": 2,
+        "price": 230.000,
+        "discount": 20,
+        "description": "Cerveza Miller Rubia",
+        "image": "/images/cerveza-miller-rubia.jpg"
+    },
+    {
+        "id": 3,
+        "price": 70.500,
+        "discount": 10,
+        "description": "Cerveza Patagonia",
+        "image": "/images/cerveza-patagonia.jpg"
+    },
+    {
+        "id": 4,
+        "price": 23.200,
+        "discount": 5,
+        "description": "Cerveza Corona",
+        "image": "/images/corona.jpg"
+    },
+    {
+        "id": 5,
+        "price": 634.27,
+        "discount": 40,
+        "description": "Cerveza IPA",
+        "image": "/images/IPA.jpg"
+    },
+    {
+        "id": 6,
+        "price": 543.000,
+        "discount": 20,
+        "description": "Kostritzer Back Beer",
+        "image": "/images/kostritzer-black-beer.jpg"
+    },
+    {
+        "id": 7,
+        "price": 770.400,
+        "discount": 10,
+        "description": "Cerveza Poker 21",
+        "image": "/images/poker-21.jpg"
+    },
+   
+    {
+        "id": 8,
+        "price": 464.700,
+        "discount": 5,
+        "description": "Cerveza Artesanal",
+        "image": "/images/tipos-cerveza.jpg"
+    }
+]

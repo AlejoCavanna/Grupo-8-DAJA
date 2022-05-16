@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs')%>
+
+  <body>
+    <header>
+      <section>
+        <%- include('./partials/nav.ejs')%>  
+      </section>
+    </header>
+
+    <main>
+
+
+      <section>
+
+        <div class=" col-12 col-sm-6 col-lg-3 products-responsive">
+          <div class="article">
+
+            <div class="images-box">
+              <img src="/images/<%= product.image %>" alt="productos" class="pictures" />
+            </div>
+            <div class="description-box">
+              <i class="fas fa-truck"></i>
+              <div class="price-discount">
+                <p class="price">$ <%=finalPrice %>
+                </p>
+                <p class="discount">
+                  <%=product.discount %>% OFF
+                </p>
+              </div>
+              <h4 class="description">
+                <%=product.description %>
+              </h4>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <%- include('./partials/footer.ejs')%>
+  </body>
+
+</html>

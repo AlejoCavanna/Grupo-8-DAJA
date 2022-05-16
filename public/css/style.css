@@ -404,7 +404,6 @@ main{
 
 .article {
   margin-bottom: 10px !important;
-  /* max-width: 40%; */
   width: 100%;
   margin: auto;
   box-sizing: border-box;
@@ -511,7 +510,7 @@ body {
   }
 
   .article {
-    width: 43%;
+    width: 43% ;
   }
 
   .nav-all {
@@ -576,6 +575,6 @@ body {
   }
 
   .article {
-    width: 23%;
+    width: 23% !important;
   }
 }
