@@ -4,13 +4,119 @@
 
   <body>
     <section>
-      <%- include('./partials/nav.ejs')%> 
+      <%- include('./partials/nav.ejs')%>
     </section>
     <main>
       <section>
+        <div class="carts">
+          <div class="table-product-cart" role="region" aria-labelledby="table-product-cart-1" tabindex="0">
+            <div class="form-heading sr-md">
+              <h2 id="table-product-cart-1" class="form-heading__heading h3" title="Products">
+                Productos
+              </h2>
+            </div>
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th class="table-product-cart__product-column h3">Producto</th>
+                  <th class="table-product-cart__Precio-column h3">Precio</th>
+                  <th class="table-product-cart__quantity-column h3">Cantidad</th>
+                  <th class="table-product-cart__total-column h3">Total</th>
+                  <th class="table-product-cart__addition-column h3">
+                    <span class="sr-only">Comprar otra vez</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-product-cart__product-column">
+                    <div class="product">
+                      <div><img src="images/cerveza-miller-rubia.jpg" />
+                      </div>
+                      <div class="product__content">
+                        <p>
+                          <strong class="h3">Patagonia Lager</strong><br />
+                          <br />
+                          Cerveza lager , de amargor moderado pero fácil de percibir. Notablemente balanceado con una
+                          base bien maltosa, como a bizcocho, pan tostado, proveniente de la malta vienna. De final seco
+                          y cuerpo ligero. Apariencia: Color dorado profundo, de espuma densa y duradera.<br />
+                          <br />
+                          No. 26026695
+                        </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table-product-cart__Precio-column">
+                    <span class="table-product-cart__thead-sm">Precio</span>
+                    $ 63,00
+                  </td>
+                  <td class="table-product-cart__quantity-column">
+                    <label for="product-quantity-26026695" class="table-product-cart__thead-sm">Cantidad</label>
+                    1
+                  </td>
+                  <td class="table-product-cart__total-column">
+                    <span class="table-product-cart__thead-sm">Total</span>
+                    $ 63,00
+                  </td>
+                  <td class="table-product-cart__addition-column">
+                    <a href="#" class="btn btn-secondary"> Comprar otra vez </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-product-cart__product-column">
+                    <div class="product">
+                      <div><img src="images/corona.jpg" />
+                      </div>
+                      <div class="product__content">
+                        <p>
+                          <strong class="h3">Cerveza Corona</strong><br />
+                          <br />
+                          Cerveza Corona. En boca es moderadamente dulce y recuerda al sabor del cereal. Su amargor es limpio y ligero. Es una cerveza de cuerpo medio, fresca y equilibrada.<br />
+                          <br />
+                          No. 20807801
+                        </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table-product-cart__Precio-column">
+                    <span class="table-product-cart__thead-sm">Precio</span>
+                    $ 22,00
+                  </td>
+                  <td class="table-product-cart__quantity-column">
+                    <label for="product-quantity-20807801" class="table-product-cart__thead-sm">Cantidad</label>
+                    3
+                  </td>
+                  <td class="table-product-cart__total-column">
+                    <span class="table-product-cart__thead-sm">Total</span>
+                    $ 66,00
+                  </td>
+                  <td class="table-product-cart__addition-column">
+                    <a href="#" class="btn btn-secondary"> Comprar otra vez </a>
+                  </td>
+                </tr>
 
-
-
+              </tbody>
+            </table>
+            <dl class="table-product-cart-summary">
+              <div class="table-product-cart-summary__item table-product-cart-summary__item--subtotal">
+                <dt>Subtotal</dt>
+                <dd>$ 129,00</dd>
+              </div>
+              <div class="table-product-cart-summary__item">
+                <dt><a href="#" target="_blank">Costo de envio</a></dt>
+                <dd>$ 0,00</dd>
+              </div>
+              <div class="table-product-cart-summary__item table-product-cart-summary__item--total h3">
+                <dt>Total final</dt>
+                <dd>$ 129,00</dd>
+              </div>
+              <div class="table-product-cart-summary__item">
+                <dt>IVA</dt>
+                <dd>$ 0,00</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
 
       </section>
     </main>
